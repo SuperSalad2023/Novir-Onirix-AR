@@ -3,7 +3,7 @@ import * as admin from 'firebase-admin';
 import { firestore } from 'firebase-admin';
 
 
-const regionalFunctions = functions.region('europe-west1');
+const regionalFunctions = functions.region('nam5');
 admin.initializeApp();
 
 const EMAIL_REG_EXP = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -12,8 +12,8 @@ const CONSTANTS = {
     COLLECTION_USERS: 'USERS',
     COLLECTION_EVENTS: 'EVENTS',
     COLLECTION_BOOTHS: 'BOOTHS',
-    SECRET: 'AUTHENTICATION TOKEN',
-    SENDGRID_API_KEY: 'EMAIL API KEY',
+    SECRET: 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY4Mzg5Mzk0NSwiaWF0IjoxNjgzODkzOTQ1fQ.ItdxyVWX3imu7Nxw1jKBtuFF8HgvcHHEpLZgP_7FNZs',
+    SENDGRID_API_KEY: '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',
     IH_HOST: 'YOUR CUSTOM DOMAIN',
     EMAIL_FROM: 'CONFIRMATION EMAIL'
 }

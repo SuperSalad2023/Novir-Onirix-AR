@@ -6,20 +6,20 @@ import authService from "./auth.service";
 class FirebaseService {
 
     constructor() {
-        this._ADMIN_TOKEN = 'FIREBASE ADMIN TOKEN';
+        this._ADMIN_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTY4Mzg5NTczNn0.HmhxWXywwIkslIbA7Juc5QBF_-PteLJKLqtvCVZWqZk';
 
         const firebaseConfig = {
-            apiKey: "FIREBASE API KEY",
-            authDomain: "FIREBASE DOMAIN",
-            projectId: "treasure-hunt",
-            storageBucket: "GOOGLE STORAGE BUCKET",
-            messagingSenderId: "MESSAGING SENDER ID",
-            appId: "APP ID",
-            measurementId: "GOOGLE ANALYTICS ID"
-        }
+            apiKey: "AIzaSyAgQLUgQys3TZxm6MOw94tz5dZ4HY8RUqM",
+            authDomain: "novir-onirix-ar.firebaseapp.com",
+            projectId: "novir-onirix-ar",
+            storageBucket: "novir-onirix-ar.appspot.com",
+            messagingSenderId: "42231520328",
+            appId: "1:42231520328:web:265a0e561eb2ffde788c7d",
+            measurementId: "G-FR4J85ZPRV"
+          };
 
         const fireApp = initializeApp(firebaseConfig);
-        this.fireFunctions = getFunctions(fireApp, 'europe-west1');
+        this.fireFunctions = getFunctions(fireApp, 'nam5');
 
         if ('development' === Constants.ENV) {
             console.log("connected to emulator");
