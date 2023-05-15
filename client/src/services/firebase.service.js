@@ -6,7 +6,7 @@ import authService from "./auth.service";
 class FirebaseService {
 
     constructor() {
-        this._ADMIN_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTY4Mzg5NTczNn0.HmhxWXywwIkslIbA7Juc5QBF_-PteLJKLqtvCVZWqZk';
+        this._ADMIN_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhZG1pbiIsImlhdCI6MTY4NDE1MDc2OH0.4z5MnDOKI6GGICy6cEFf_BIAk-yLQlw7tL6w1jB8Z7w';
 
         const firebaseConfig = {
             apiKey: "AIzaSyAgQLUgQys3TZxm6MOw94tz5dZ4HY8RUqM",
@@ -16,10 +16,10 @@ class FirebaseService {
             messagingSenderId: "42231520328",
             appId: "1:42231520328:web:265a0e561eb2ffde788c7d",
             measurementId: "G-FR4J85ZPRV"
-          };
+        };
 
         const fireApp = initializeApp(firebaseConfig);
-        this.fireFunctions = getFunctions(fireApp, 'nam5');
+        this.fireFunctions = getFunctions(fireApp, 'us-central1');
 
         if ('development' === Constants.ENV) {
             console.log("connected to emulator");
