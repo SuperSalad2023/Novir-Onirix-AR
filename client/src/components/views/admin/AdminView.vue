@@ -13,7 +13,7 @@
                         Booths
                     </li>
                     <li v-if="null != ihEvent" :class="{ selected: TABS.REGISTERED === tabIndex }" @click="tabIndex = TABS.REGISTERED">
-                        Registered
+                        JEBIGA
                     </li>
                 </ul>
             </nav>
