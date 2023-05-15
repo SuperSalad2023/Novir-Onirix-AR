@@ -42,7 +42,7 @@ export default {
         cellRendererFramework: "gameLinkRenderer",
       },
       { 
-        headerName: "kurva kod",
+        headerName: "QR",
         field: "qrLink",
         cellRendererFramework: "qrCodeRenderer",
       },
