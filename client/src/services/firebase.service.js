@@ -14,8 +14,8 @@ class FirebaseService {
             projectId: "novir-onirix-ar",
             storageBucket: "novir-onirix-ar.appspot.com",
             messagingSenderId: "42231520328",
-            appId: "1:42231520328:web:265a0e561eb2ffde788c7d",
-            measurementId: "G-FR4J85ZPRV"
+            appId: "1:42231520328:web:282c99fa0640d3cf788c7d",
+            measurementId: "G-VZMC1C52VK"
         };
 
         const fireApp = initializeApp(firebaseConfig);
