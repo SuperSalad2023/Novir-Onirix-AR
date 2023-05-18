@@ -14,8 +14,8 @@ const CONSTANTS = {
   COLLECTION_BOOTHS: 'BOOTHS',
   SECRET: "d3oHVMsNTpAxRgog",
   SENDGRID_API_KEY: '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',
-  IH_HOST: 'YOUR CUSTOM DOMAIN',
-  EMAIL_FROM: 'CONFIRMATION EMAIL'
+  IH_HOST: 'novirscore.com',
+  EMAIL_FROM: 'admin@em8039.novirscore.com'
 }
 
 /* CLASSES */
