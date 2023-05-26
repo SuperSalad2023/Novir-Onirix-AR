@@ -1,16 +1,34 @@
-<svg width="170" height="170" viewBox="0 0 170 170" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <circle id="aqy0lgf9qa" cx="85" cy="85" r="85"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <mask id="q35he5askb" fill="#fff">
-            <use xlink:href="#aqy0lgf9qa"/>
-        </mask>
-        <use fill="#F87A53" xlink:href="#aqy0lgf9qa"/>
-        <g mask="url(#q35he5askb)">
-            <path d="M86 30.385c-43.283 0-57 13.717-57 57 0 43.282 13.717 57 57 57s57-13.718 57-57c0-43.283-13.717-57-57-57" fill="#CFCFCF"/>
-            <path d="M86 26c-43.283 0-57 13.717-57 57s13.717 57 57 57 57-13.717 57-57-13.717-57-57-57" fill="#FFF"/>
-            <path fill="#311F55" d="m57.5 88.575 8.892-9.001 10.433 10.56L105.608 61l8.892 9-37.675 38.135z"/>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 170 170" style="enable-background:new 0 0 170 170;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F87A53;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{mask:url(#b_00000103251985460358666320000009958768798195069329_);}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#CFCFCF;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#236DB0;}
+</style>
+<g>
+	<g>
+		<circle id="a_00000047739875796858963460000001312041293667126202_" class="st0" cx="85" cy="85" r="85"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="29" y="26" width="114" height="118.4">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	
+		<mask maskUnits="userSpaceOnUse" x="29" y="26" width="114" height="118.4" id="b_00000103251985460358666320000009958768798195069329_">
+		<g class="st1">
+			<circle id="a_00000050661433768220871650000010592297835351602561_" class="st2" cx="85" cy="85" r="85"/>
+		</g>
+	</mask>
+	<g class="st3">
+		<path class="st4" d="M86,30.4c-43.3,0-57,13.7-57,57c0,43.3,13.7,57,57,57s57-13.7,57-57C143,44.1,129.3,30.4,86,30.4"/>
+		<path class="st2" d="M86,26c-43.3,0-57,13.7-57,57s13.7,57,57,57s57-13.7,57-57S129.3,26,86,26"/>
+		<path class="st5" d="M57.5,88.6l8.9-9l10.4,10.6L105.6,61l8.9,9l-37.7,38.1L57.5,88.6z"/>
+	</g>
+</g>
 </svg>
