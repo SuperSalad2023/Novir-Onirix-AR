@@ -1,7 +1,7 @@
 <template>
     <div class="layout--users">
         <div>
-            <inline-svg class="logo" height="20px" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
+            <inline-svg class="admin-logo" height="20px" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
             
             <div class="step">
                 <h1>Welcome back!</h1>
