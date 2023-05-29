@@ -1,5 +1,6 @@
 <template>
-    <iframe v-if="project" ref="onirixFrame" id="onirix-frame" class="web_ar_iframe" :src="`${onirixHost}/projects/${project?.oid}/webar?token=${project?.publicToken}&scene=${booth.onirixSceneOid}`" allow="camera;gyroscope;accelerometer;geolocation"></iframe>
+    <iframe v-if="project" ref="onirixFrame" id="onirix-frame" class="web_ar_iframe" :src="`${onirixHost}/projects/${project?.oid}/webar?token=${project?.publicToken}&scene=${booth.onirixSceneOid}`" allow="camera;gyroscope;accelerometer;magnetometer;fullscreen;xr-spatial-tracking;geolocation;"
+></iframe>
     
     <div class="header">
         <div class="header__logo">
