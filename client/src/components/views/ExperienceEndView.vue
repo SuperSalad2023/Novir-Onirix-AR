@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div v-if="TABS.HOME === tabIndex">
-                <img src="../../assets/welcome.webp" alt="Welcome" />
+                <img src="../../assets/renamed.webp" alt="Welcome" />
                 <h1>Welcome!</h1>
                 <p>Look for the hidden QR codes in the different locations, scan the QR and hunt for the hidden content floating around you.</p>
                 <div class="score" v-if="null != totalScore">
