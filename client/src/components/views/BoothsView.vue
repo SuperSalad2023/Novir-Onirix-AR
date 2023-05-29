@@ -15,7 +15,7 @@
             </div>
             <div class="content"> 
                 <div>
-                    <img src="../../assets/booths-directory.webp" alt="How to play image" ref="boothsTopElement"/>
+                    <img src="../../assets/booths-directory.jpg" alt="How to play image" ref="boothsTopElement"/>
                     <div class="instructions">
                         <h1>Playable booths</h1>
                         <p>The following is our complete list of booths participating in the Web AR Hunt adventure.</p>
