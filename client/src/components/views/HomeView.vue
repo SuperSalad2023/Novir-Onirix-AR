@@ -58,7 +58,7 @@ export default {
 
 .layout {
     color: var(--color-font-light);
-    background-image: url(../../assets/welcome-bg.webp);
+    background-image: url(../../assets/welcome-bg.jpg);
     background-position: center;
     background-size: cover;
     & > div {

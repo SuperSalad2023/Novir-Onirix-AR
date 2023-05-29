@@ -6,7 +6,7 @@
         </div>
         
         <div class="content" :class="{'content--footer': showFoot}">
-            <img src="../../assets/join-hero.webp" alt="How to play image" />
+            <img src="../../assets/join-hero.jpg" alt="How to play image" />
             <div class="instructions">
                 <h1>Tap Into the Action</h1>
                 <p>This Web AR adventure is a virtual treasure hunt based augmented reality. To play, simply collect the 3D content hidden in the different locations.  The more you find, the more points you earn, and the more points you earn the better your chances of winning.  Good luck!</p>
