@@ -34,8 +34,8 @@ import Constants from '../../constants'
 const OnirixAPIClient = new OnirixAPI(Constants.API_TOKEN, `${Constants.ONIRIX_HOST}/api/`);
 let embedSDK;
 
-const logoNames = ["logo1", "logo2"];
-const logoPoints = [10, 20];
+const logoNames = ["button1", "button2", "button3", "button4", "button5"];
+const logoPoints = [10, 10, 10, 10, 10];
 
 export default {
     name: 'ExperienceView',
