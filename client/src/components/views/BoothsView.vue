@@ -17,8 +17,8 @@
                 <div>
                     <img src="../../assets/booths-directory.jpg" alt="How to play image" ref="boothsTopElement"/>
                     <div class="instructions">
-                        <h1>Playable booths</h1>
-                        <p>The following is our complete list of booths participating in the Web AR Hunt adventure.</p>
+                        <h1>Playable scenes</h1>
+                        <p>The following is our complete list of scenes participating in the Web AR Hunt adventure.</p>
                         
                         <div class="booth" v-for="booth of booths" :key="booth.id">
                             <div class="booth__image" :class="{'booth__image--played': booth.played}">

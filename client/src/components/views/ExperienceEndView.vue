@@ -18,12 +18,12 @@
             <div v-if="TABS.PLAYED === tabIndex">
                 <inline-svg :src="require('@/assets/booth-played.svg')"></inline-svg>
                 <h1>Been there, done that!</h1>
-                <p>You have already played this location</p>
+                <p>You have already played this location.</p>
                 <div class="score" v-if="null != totalScore">
                     <span>Current score:</span>
                     <span class="score__points"><span>{{totalScore}}</span>pts</span>
                 </div>
-                <p class="note">Earn even more points by scanning QR codes at other available booths.</p>
+                <p class="note">Earn even more points by scanning QR codes at other available locations. When you reach 50 points, you hae played all the games.</p>
             </div>
             <div v-if="TABS.END === tabIndex">
                 <inline-svg :src="require('@/assets/keep-it-up.svg')"></inline-svg>

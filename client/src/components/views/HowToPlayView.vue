@@ -21,7 +21,7 @@
                     <img src="../../assets/capture.jpg" alt="Scan to play" />
                     <h2>2. Phone It In</h2>
                     <p>Once you’ve scanned the QR code, the 3D content will magically appear on your phone’s screen.  Look all around using your phone’s camera to spot each one, and then tap on it to add points to your total.</p>
-                    <p><span>Pro Tip:</span> Pro Tip:  Power up your score by collecting the special content worth bonus points in select booths.  How can you find out where they’re hiding?  Just tap on the Booths button where we’ve left you some clues…</p>
+                    
                 </div>
             </div>
         </div>
