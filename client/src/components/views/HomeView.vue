@@ -2,13 +2,15 @@
     <div class="layout">
         <div v-if="ihEvent">
             <div class="event">
+                <inline-svg class="logo" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
+
                 <p style="color:#396cab !important;">Welcome to</p>
                 <h1 style="color:#396cab !important;">{{ihEvent.name}}</h1>
                 <p  class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
             </div>
             <img class="event__logo" alt="Event logo" :src="ihEvent.logoUrl" />
             <button class="link">
-                <span  @click="howToPlayOpen = true">How to play</span>
+                <span style="color:#396cab !important;"  @click="howToPlayOpen = true">How to play</span>
             </button>
         </div>
         <div v-if="ihEvent" class="footer">
