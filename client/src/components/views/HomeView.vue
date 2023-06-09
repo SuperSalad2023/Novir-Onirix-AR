@@ -4,20 +4,20 @@
             <inline-svg class="logo" :src="require('@/assets/ar-view-logo.svg')"></inline-svg>
             <div class="event">
                 <p style="color:#396cab !important;">Welcome to</p>
-                <h1>{{ihEvent.name}}</h1>
-                <p class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
+                <h1 style="color:#396cab !important;">{{ihEvent.name}}</h1>
+                <p  class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
             </div>
             <img class="event__logo" alt="Event logo" :src="ihEvent.logoUrl" />
             <button class="noBg">
                 <inline-svg :src="require('@/assets/question.svg')"></inline-svg>
-                <span @click="howToPlayOpen = true">How to play</span>
+                <span style="color:#396cab !important;" @click="howToPlayOpen = true">How to play</span>
             </button>
         </div>
         <div v-if="ihEvent" class="footer">
             <button @click="$router.push({name: 'register'})">
                 Create account to play
             </button>
-            <p style="color:#396cab !important;">Already have an account? <router-link to="/login">Login here</router-link></p>
+            <p style="color:#396cab !important;">Already have an account? <router-link style="color:#396cab !important;" to="/login">Login here</router-link></p>
         </div>
     </div>
     <HowToPlayView :open="howToPlayOpen" :showFoot="false" @close="howToPlayOpen = false" ></HowToPlayView>
