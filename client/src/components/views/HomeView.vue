@@ -1,9 +1,7 @@
 <template>
     <div class="layout">
         <div v-if="ihEvent">
-            <div class="event">
-                <inline-svg class="logo" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
-
+            <div class="event" style="padding-top: 60px;">
                 <p style="color:#396cab !important;">Welcome to</p>
                 <h1 style="color:#396cab !important;">{{ihEvent.name}}</h1>
                 <p  class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
