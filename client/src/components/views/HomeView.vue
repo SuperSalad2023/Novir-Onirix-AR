@@ -1,7 +1,7 @@
 <template>
     <div class="layout">
         <div v-if="ihEvent">
-            <div class="event" style="padding-top: 40px;">
+            <div class="event" style="padding-top: 60px;">
 
                 <p style="color:#396cab !important;">Welcome to</p>
                 <h1 style="color:#396cab !important;">{{ihEvent.name}}</h1>
