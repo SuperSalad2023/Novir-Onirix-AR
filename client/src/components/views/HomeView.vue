@@ -5,7 +5,7 @@
             <div class="event">
                 <p style="color:#396cab !important;">Welcome to</p>
                 <h1>{{ihEvent.name}}</h1>
-                <p class="event__subtitle">Find the hidden QR codes, unlock and collect all the items</p>
+                <p class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
             </div>
             <img class="event__logo" alt="Event logo" :src="ihEvent.logoUrl" />
             <button class="noBg">
@@ -17,7 +17,7 @@
             <button @click="$router.push({name: 'register'})">
                 Create account to play
             </button>
-            <p class="">Already have an account? <router-link to="/login">Login here</router-link></p>
+            <p style="color:#396cab !important;">Already have an account? <router-link to="/login">Login here</router-link></p>
         </div>
     </div>
     <HowToPlayView :open="howToPlayOpen" :showFoot="false" @close="howToPlayOpen = false" ></HowToPlayView>
