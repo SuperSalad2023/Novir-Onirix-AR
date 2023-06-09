@@ -8,9 +8,8 @@
                 <p  class="event__subtitle" style="color:#396cab !important;">Find the hidden QR codes, unlock and collect all the items</p>
             </div>
             <img class="event__logo" alt="Event logo" :src="ihEvent.logoUrl" />
-            <button class="noBg">
-                <inline-svg  style="color:#396cab !important;" :src="require('@/assets/question.svg')"></inline-svg>
-                <span style="color:#396cab !important;" @click="howToPlayOpen = true">How to play</span>
+            <button class="small">
+                <span  @click="howToPlayOpen = true">How to play</span>
             </button>
         </div>
         <div v-if="ihEvent" class="footer">
