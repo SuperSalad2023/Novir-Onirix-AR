@@ -30,7 +30,7 @@
 
 .header__logo {
     background-color: var(--color-font-light);
-   // flex-basis: calc(100vw - 75px);
+    flex-basis: calc(100vw);
     display: flex;
     justify-content: space-between;
     align-items: center;
