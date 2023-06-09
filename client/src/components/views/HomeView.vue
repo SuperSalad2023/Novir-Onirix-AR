@@ -1,12 +1,8 @@
 <template>
     <div class="layout">
         <div v-if="ihEvent">
-<<<<<<< HEAD
-            <div class="event" style="padding-top: 60px;">
-=======
             <div class="event">
                 <inline-svg class="logo" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
->>>>>>> parent of b67555e (logo remover padding fix)
 
                 <p style="color:#396cab !important;">Welcome to</p>
                 <h1 style="color:#396cab !important;">{{ihEvent.name}}</h1>
