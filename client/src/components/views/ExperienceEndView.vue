@@ -37,7 +37,7 @@
             <div v-if="TABS.HOME === tabIndex">
                 <img src="../../assets/welcome.jpg" alt="Welcome" />
                 <h1>Welcome!</h1>
-                <p>Look for the hidden QR codes in the different locations, scan the QR and hunt for the hidden content floating around you.</p>
+                <p>Look for the QR codes in the different locations, scan the QR and hunt for the content floating around you.</p>
                 <div class="score" v-if="null != totalScore">
                     <span>Current score:</span>
                     <span class="score__points"><span>{{totalScore}}</span>pts</span>

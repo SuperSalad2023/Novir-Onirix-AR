@@ -3,13 +3,13 @@
         <div class="menu">
             <div class="tab" @click="toggleBooths(true)">
                 <inline-svg :src="require('@/assets/booths.svg')"></inline-svg>
-                <span>Booths</span>
+                <span>Scenes</span>
             </div>
         </div>
         <div id="booths-prices-container" :class="{ 'open' : open}">
             <div class="header">
                 <div>
-                    <span>Booths</span>
+                    <span>Scenes</span>
                 </div>
                 <inline-svg class="logo" :src="require('@/assets/x-close.svg')" @click="toggleBooths(false)" ></inline-svg>
             </div>
