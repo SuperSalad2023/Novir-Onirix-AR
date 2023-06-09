@@ -2,7 +2,7 @@
     <div class="layout--game">
         <div class="header">
             <div class="header__logo">
-                <inline-svg :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
+                <inline-svg height="20px" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
                 <span @click="toggleFullScreen" v-if="fullScreenSupported">
                     <inline-svg :src="require('@/assets/maximize.svg')"></inline-svg>
                 </span>

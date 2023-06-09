@@ -17,7 +17,7 @@
                     </li>
                 </ul>
             </nav>
-            <inline-svg class="logo" :src="require('@/assets/ar-view-logo.svg')"></inline-svg>
+            <inline-svg class="logo" width="100px" :src="require('@/assets/ar-view-logo.svg')"></inline-svg>
             <button v-if="TABS.EVENT === tabIndex" @click="ihEventForm.show = true">{{null != ihEvent ? 'Edit event' : 'Create event'}}</button>
             <button v-if="null != ihEvent && (TABS.GAMES === tabIndex || TABS.REGISTERED === tabIndex)" @click="csvClickHandler">
                 CSV
