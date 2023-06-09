@@ -9,7 +9,7 @@
             </div>
             <img class="event__logo" alt="Event logo" :src="ihEvent.logoUrl" />
             <button class="noBg">
-                <inline-svg :src="require('@/assets/question.svg')"></inline-svg>
+                <inline-svg  style="color:#396cab !important;" :src="require('@/assets/question.svg')"></inline-svg>
                 <span style="color:#396cab !important;" @click="howToPlayOpen = true">How to play</span>
             </button>
         </div>
