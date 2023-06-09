@@ -3,7 +3,7 @@
         <div v-if="ihEvent">
             <inline-svg class="logo" :src="require('@/assets/ar-view-logo.svg')"></inline-svg>
             <div class="event">
-                <p>Welcome to</p>
+                <p style="color:#396cab !important;">Welcome to</p>
                 <h1>{{ihEvent.name}}</h1>
                 <p class="event__subtitle">Find the hidden QR codes, unlock and collect all the items</p>
             </div>
@@ -88,7 +88,7 @@ export default {
 }
 .event__logo {
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.87);
+  //  background-color: rgba(255, 255, 255, 0.87);
     margin-bottom: 27px;
 }
 
