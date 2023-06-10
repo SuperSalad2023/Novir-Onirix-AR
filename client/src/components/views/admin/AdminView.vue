@@ -1,4 +1,4 @@
-<!--
+<!-- -->
 
 <template>
     <div class="admin">
@@ -38,8 +38,7 @@
         <ConfirmView :params="confirmParams" @close="closeConfirmHandler" ></ConfirmView>
     </div>
 </template>
- -->
-
+ 
 <script>
 import firebaseService from "../../../services/firebase.service";
 

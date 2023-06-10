@@ -2,6 +2,7 @@
     <div class="layout--users">
         <div>
             <inline-svg class="logo" :src="require('@/assets/ar-view-logo-purple.svg')"></inline-svg>
+            <img class="logo" src="@/assets/ar-view-logo-purple.png">
             
             <div class="step" v-if="stepIndex === STEPS.LOGIN">
                 <p>STEP 1 of 2</p>
