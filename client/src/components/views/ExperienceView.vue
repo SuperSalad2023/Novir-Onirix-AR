@@ -35,7 +35,7 @@ const OnirixAPIClient = new OnirixAPI(Constants.API_TOKEN, `${Constants.ONIRIX_H
 let embedSDK;
 
 const logoNames = ["button1", "button2", "button3", "button4", "button5"];
-const logoPoints = [0, 0, 0, 0, 0];
+const logoPoints = [10, 10, 10, 10, 10];
 
 export default {
     name: 'ExperienceView',
@@ -102,9 +102,9 @@ export default {
                 this.score.catch++;
                 this.score.points += logoPoints[idx];
             }
-            if (this.score.catch === this.score.total) {
-                this.endGame();
-            }
+          //  if (this.score.catch === this.score.total) {
+          //      this.endGame();
+          //  }
         },
         toggleFullScreen() {
             if (!document.fullscreenElement) {
