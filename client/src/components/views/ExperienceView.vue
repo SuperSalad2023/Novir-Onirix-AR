@@ -35,7 +35,7 @@ const OnirixAPIClient = new OnirixAPI(Constants.API_TOKEN, `${Constants.ONIRIX_H
 let embedSDK;
 
 const logoNames = ["button1", "button2", "button3", "button4", "button5"];
-const logoPoints = [10, 10, 10, 10, 10];
+const logoPoints = [0, 0, 0, 0, 0];
 
 export default {
     name: 'ExperienceView',
