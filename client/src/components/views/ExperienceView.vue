@@ -102,9 +102,9 @@ export default {
                 this.score.catch++;
                 this.score.points += logoPoints[idx];
             }
-          //  if (this.score.catch === this.score.total) {
-          //      this.endGame();
-          //  }
+            if (this.score.catch === this.score.total) {
+                this.endGame();
+            }
         },
         toggleFullScreen() {
             if (!document.fullscreenElement) {
